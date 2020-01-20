@@ -1,0 +1,7 @@
+node_modules
+https/*
+package-lock.json
+.data/tokens/*
+.data/users/*
+.data/checks/*
+.logs/*
