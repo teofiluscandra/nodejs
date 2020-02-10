@@ -9,21 +9,20 @@ const cli = require('./lib/cli');
 
 const app = {};
 
-app.init = (callback) => {
+// Declare global
+foo = 'bar';
+
+app.init = () => {
 	server.init();
 	workers.init();
 
 	// start cli, last
 	setTimeout(() => {
 		cli.init();
-		callback();
 	}, 50);
 };
 
-// Self invoking only if required directly
-
-if (require.main === module) {
-	app.init(() => {});
-}
+// Execute
+app.init();
 
 module.exports = app;

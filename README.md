@@ -17,6 +17,15 @@ I need to refresh my NodeJS fundamental before i learn about another tech.
 - Create and Delete Session
 - Add CLI with lib readline and events
 - Utilize os and v8 lib
+- Errors
+- Debugger with inspect
+- Linting with "node --use-strict"
+- Add test runner
+- Add unit test
+- Add API test
+- using performance hooks (POST token)
+- using child process (change cli.listLogs from fs to ls)
+- using cluster and forking (index-cluster)
 
 ## Note
 - Libraries listed in package.json are for eslint.
