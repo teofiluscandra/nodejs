@@ -26,6 +26,13 @@ I need to refresh my NodeJS fundamental before i learn about another tech.
 - using performance hooks (POST token)
 - using child process (change cli.listLogs from fs to ls)
 - using cluster and forking (index-cluster)
+- VM
+- HTTP/2
+- UDP
+- TCP
+- TLS
+- async hooks
+- repl
 
 ## Note
 - Libraries listed in package.json are for eslint.
